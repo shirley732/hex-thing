@@ -3,6 +3,7 @@ html {
     justify-content: center;
     margin-top: 5rem;
     align-items: center;
+    background-color: aliceblue;
 
     #contentContainer {
         display: flex;
