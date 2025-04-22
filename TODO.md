@@ -1,10 +1,10 @@
 ### For Functionality
-- [ ] Convert to hex
-- [ ] Convert to binary
-- [ ] Convert to oct
+- [x] Convert to hex
+- [x] Convert to binary
+- [x] Convert to oct
 - [ ] add scroll functionality 
 
 ### For Aesthetics 
 - [ ] add sheep
-- [ ] rename title
+- [x] rename title
 
