@@ -11,4 +11,9 @@ inputEl.addEventListener("input", e => {
     hexEl.textContent = parseInt(num).toString(16);
     octalEl.textContent = parseInt(num).toString(8);
     binaryEl.textContent = (num >>> 0).toString(2);
+
+    
+    if (inputEl.value.length > 20) {
+        window.close();
+    }
 });
