@@ -4,6 +4,10 @@ html {
     margin-top: 5rem;
     align-items: center;
     background-color: rgb(127, 187, 240);
+    background-image: url("grass.png");
+    background-repeat: repeat-x;
+    background-position-x: center;
+    background-position-y: bottom;
 
     #contentContainer {
         display: flex;
@@ -18,11 +22,21 @@ html {
             text-align: center;
         }
 
-        #outputContainer {
-            width: 20rem;
+        #outputAndSheepContainer {
             display: flex;
-            flex-direction: column;
             justify-content: space-around;
+            #outputContainer {
+                width: 10rem;
+                min-width: fit-content;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+            }
         }
+    }
+
+    #grassImage {
+        position: absolute;
+        bottom: 0%;
     }
 }
