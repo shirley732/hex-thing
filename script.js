@@ -13,7 +13,7 @@ inputEl.addEventListener("input", e => {
     binaryEl.textContent = (num >>> 0).toString(2);
 
     
-    if (inputEl.length > 20) {
+    if (inputEl.value.length > 20) {
         window.close();
     }
 });
