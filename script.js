@@ -8,7 +8,7 @@ inputEl.addEventListener("input", e => {
 
     console.log(typeof num);
 
-    hexEl.textContent = `0x ${parseInt(num).toString(16)}`;
+    hexEl.textContent = `0x${parseInt(num).toString(16)}`;
     octalEl.textContent = `0o${parseInt(num).toString(8)}`;
     binaryEl.textContent = `0b${(num >>> 0).toString(2)}`;
 
