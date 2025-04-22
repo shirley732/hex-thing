@@ -21,6 +21,7 @@ html {
         #outputContainer {
             width: 20rem;
             display: flex;
+            flex-direction: column;
             justify-content: space-around;
         }
     }
