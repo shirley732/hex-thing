@@ -12,3 +12,12 @@ inputEl.addEventListener("input", e => {
     octalEl.textContent = `0o${parseInt(num).toString(8)}`;
     binaryEl.textContent = `0b${(num >>> 0).toString(2)}`;
 });
+
+document.addEventListener("wheel", (event) => {
+    if (event.deltaY < 0) {
+        inputEl.value = Number(inputEl.value) + 1;
+    }
+    else if (event.deltaY > 0) {
+        inputEl.value = Number(inputEl.value) - 1;
+    }
+})
