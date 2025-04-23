@@ -14,3 +14,7 @@ JS
 - Kade
 - Cadman
 - Cameron
+
+Usability Testers
+- Johnny
+- Jocelyn
