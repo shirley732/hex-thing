@@ -2,9 +2,10 @@
 - [x] Convert to hex
 - [x] Convert to binary
 - [x] Convert to oct
-- [ ] add scroll functionality 
+- [ ] add scroll functionality
+- [ ] generate random number on load
 
 ### For Aesthetics 
-- [ ] add sheep
+- [x] add sheep
 - [x] rename title
 
