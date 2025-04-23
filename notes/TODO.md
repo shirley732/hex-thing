@@ -3,7 +3,7 @@
 - [x] Convert to binary
 - [x] Convert to oct
 - [ ] add scroll functionality
-- [ ] generate random number on load
+- [x] generate random number on load
 
 ### For Aesthetics 
 - [x] add sheep
