@@ -11,7 +11,7 @@ const calculateValues = function () {
     binaryEl.textContent = `0b${(num >>> 0).toString(2)}`;
 }
 
-inputEl.value = Math.round(Math.random() * 1000000000);
+inputEl.value = Math.round(Math.random() * 1000);
 calculateValues();
 
 inputEl.addEventListener("input", e => {
