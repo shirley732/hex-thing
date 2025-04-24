@@ -26,4 +26,4 @@ document.addEventListener("wheel", (event) => {
         inputEl.value = Number(inputEl.value) - 1;
     }
     calculateValues();
-})
+});
