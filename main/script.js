@@ -4,7 +4,7 @@ const octalEl = document.querySelector("#octalOutput");
 const binaryEl = document.querySelector("#binaryOutput");
 
 const calculateValues = function () {
-    const num = parseInt(inputEl.value);
+    const num = BigInt(inputEl.value);
 
     hexEl.textContent = `0x${num.toString(16)}`;
     octalEl.textContent = `0o${num.toString(8)}`;
