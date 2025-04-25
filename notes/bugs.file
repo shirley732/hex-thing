@@ -1,0 +1,4 @@
+Bug report Numba 1: The A Issue.
+    1. Open the page.
+    2. Type a in the text field.
+    3. It will return NaN for every response and that is undesirable.
