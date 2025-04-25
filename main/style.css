@@ -51,4 +51,22 @@ html {
         position: absolute;
         bottom: 0%;
     }
+
+    .emojiContainer { 
+        position: absolute;
+        animation-name: flyAway;
+        animation-duration: 2s;
+    }
+}
+
+@keyframes flyAway {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(15);
+        opacity: 0;
+    }
 }

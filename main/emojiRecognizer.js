@@ -7,7 +7,8 @@ const fetchEmojis = function () {
         }
         return response.json();
     }).then(data => {
-        emojis = data; 
+        emojis = data;
+        console.log("Fetch successful: " + emojis);
     }).catch(error => {
         console.error('Error:', error); // Handle errors
     });

@@ -18,15 +18,23 @@ const calculateValues = function () {
         const emojiObject = emojis.find(input => input.codePoint === num.toString(16).toUpperCase());
         makeEmoji(emojiObject.character)
         console.log(emojiObject.character)
-        window.alert(emojiObject.character);
     }
 }
-function makeEmoji(emoji){
-   const emojiContainer = document.createElement("div")
-   emojiContainer.innerHTML = emoji
-   document.body.append(emojiContainer)
+
+const makeEmoji = function (emojiObject){
+   const emojiContainer = document.createElement("div");
+   emojiContainer.className = "emojiContainer";
+   emojiContainer.innerHTML = emojiObject;
+   emojiContainer.style.left = Math.round(Math.random() * window.innerWidth) + "px";
+   emojiContainer.style.top = Math.round(Math.random() * window.innerHeight) + "px";
+   emojiContainer.style.opacity = 0;
+   console.log(emojiContainer);
+   document.body.append(emojiContainer);
 }
-inputEl.value = Math.round(Math.random() * 1000);
+
+//inputEl.value = Math.round(Math.random() * 1000);
+inputEl.value = "128512";
+
 calculateValues();
 
 inputEl.addEventListener("input", e => {
