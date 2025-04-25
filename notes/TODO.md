@@ -9,5 +9,8 @@
 - [x] add sheep
 - [x] rename title
 
+### Bugs
+- [ ] commas mess up the code
 
-860790e4dbd0c835df5337d1959f4c8e887de661
+### Emoji API key
+```860790e4dbd0c835df5337d1959f4c8e887de661```
