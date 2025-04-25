@@ -16,10 +16,16 @@ const calculateValues = function () {
 
     else if (emojis.find(input => input.codePoint === num.toString(16).toUpperCase())) {
         const emojiObject = emojis.find(input => input.codePoint === num.toString(16).toUpperCase());
+        makeEmoji(emojiObject.character)
+        console.log(emojiObject.character)
         window.alert(emojiObject.character);
     }
 }
-
+function makeEmoji(emoji){
+   const emojiContainer = document.createElement("div")
+   emojiContainer.innerHTML = emoji
+   document.body.append(emojiContainer)
+}
 inputEl.value = Math.round(Math.random() * 1000);
 calculateValues();
 
@@ -36,3 +42,4 @@ document.addEventListener("wheel", (event) => {
     }
     calculateValues();
 });
+
