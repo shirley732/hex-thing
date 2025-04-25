@@ -5,6 +5,10 @@ html {
     align-items: center;
     background-color: rgb(127, 187, 240);
 
+    .img {
+        user-select: none;
+    }
+
     #contentContainer {
         display: flex;
         flex-direction: column;
@@ -27,6 +31,17 @@ html {
                 display: flex;
                 flex-direction: column;
                 justify-content: space-around;
+            }
+        }
+
+        #cloudContainer {
+            display: flex;
+            justify-content: space-around;
+            .cloud {
+                margin-top: -2.5%;
+                margin-left: 4rem;
+                margin-right: 4rem;
+                margin-bottom: 12.5%;
             }
         }
     }
