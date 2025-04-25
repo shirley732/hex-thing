@@ -26,9 +26,10 @@ html {
             display: flex;
             justify-content: space-around;
             #outputContainer {
-                width: 10rem;
-                min-width: fit-content;
+                word-wrap: break-word;
+                max-width: 20rem;
                 display: flex;
+                
                 flex-direction: column;
                 justify-content: space-around;
             }
