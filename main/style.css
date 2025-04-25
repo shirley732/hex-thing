@@ -5,6 +5,10 @@ html {
     align-items: center;
     background-color: rgb(127, 187, 240);
 
+    .img {
+        user-select: none;
+    }
+
     #contentContainer {
         display: flex;
         flex-direction: column;
