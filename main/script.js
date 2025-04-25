@@ -4,11 +4,11 @@ const octalEl = document.querySelector("#octalOutput");
 const binaryEl = document.querySelector("#binaryOutput");
 
 const calculateValues = function () {
-    const num = inputEl.value;
+    const num = parseInt(inputEl.value);
 
-    hexEl.textContent = `0x${parseInt(num).toString(16)}`;
-    octalEl.textContent = `0o${parseInt(num).toString(8)}`;
-    binaryEl.textContent = `0b${(num >>> 0).toString(2)}`;
+    hexEl.textContent = `0x${num.toString(16)}`;
+    octalEl.textContent = `0o${num.toString(8)}`;
+    binaryEl.textContent = `0b${num.toString(2)}`;
 }
 
 inputEl.value = Math.round(Math.random() * 1000);
