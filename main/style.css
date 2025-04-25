@@ -34,10 +34,10 @@ html {
             display: flex;
             justify-content: space-around;
             .cloud {
-                margin-top: -60px;
-                margin-left: 63.222px;
-                margin-right: 64.128px;
-                margin-bottom: 50px;
+                margin-top: -2.5%;
+                margin-left: 4rem;
+                margin-right: 4rem;
+                margin-bottom: 12.5%;
             }
         }
     }
