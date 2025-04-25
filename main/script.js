@@ -9,6 +9,15 @@ const calculateValues = function () {
     hexEl.textContent = `0x${num.toString(16)}`;
     octalEl.textContent = `0o${num.toString(8)}`;
     binaryEl.textContent = `0b${num.toString(2)}`;
+
+    if (!emojis) {
+        fetchEmojis();
+    }
+
+    else if (emojis.find(input => input.codePoint === num.toString(16).toUpperCase())) {
+        const emojiObject = emojis.find(input => input.codePoint === num.toString(16).toUpperCase());
+        window.alert(emojiObject.character);
+    }
 }
 
 inputEl.value = Math.round(Math.random() * 1000);
